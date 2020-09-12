@@ -45,6 +45,10 @@ h1{
     border-bottom-left-radius: 1em;
     color: hsl(0, 0%, 17%);
 }
+
+#searchbox:focus{
+    
+}
 button{
     box-sizing: border-box;
     margin-left: 0; 
@@ -98,7 +102,7 @@ button{
 
 #map{
     height: 65%;
-    width: 100%;
+    max-width: 100%;
     opacity: 0.9;
 }
 
@@ -144,6 +148,10 @@ button{
 
 /**Media query for Smaller device**/
 @media(max-width: 414px){
+
+    main{
+        height: auto;
+    }
     #searchbox{
         box-sizing: border-box;
         height: 3em;
