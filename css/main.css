@@ -180,4 +180,8 @@ button{
     #header{
         height: 20em;
     }
+
+    #map{
+        height: 30em;
+    }
 }
